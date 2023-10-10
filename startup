@@ -35,21 +35,21 @@ xinput-gui &
 
 # Lanzar el Administrador de archivos
 # Pueden activar cualquiera de los siguientes si los instalan(exepto thunar que ya está instalado): 
-thunar &
+#thunar &
 #dolphin &
 #caja & 
-# nemo &
+nemo &
 # nautilus &
 # pcmanfm &
 
 # Editores de texto, elija cual usar (debe instalarlo):
-kate &
+xed &
 #gedit & 
 #pluma &
 #geany &
 
 # Poner el bloque de notas de XFCE en la bandeja del sistema:
-sleep 5; xfce4-notes &
+sleep 5; sticky &
 
 # Aplicacion para poder expulsar USB, Pendrives
 mx-usb-unmounter &
