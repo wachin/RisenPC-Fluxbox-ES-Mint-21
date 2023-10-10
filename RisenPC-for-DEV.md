@@ -4,7 +4,7 @@ Si usted es un desarrollador y si le gustara esta manera de personalización de 
 
 - Haga haga un fork de mi repositorio entrando en la siguiente dirección (para ello usted debe tener una cuenta de Github y saberlo usar):
 
-[https://github.com/wachin/RisenPC-Fluxbox-ES](https://github.com/wachin/RisenPC-Fluxbox-ES)
+[https://github.com/wachin/RisenPC-Fluxbox-ES-Mint-21](https://github.com/wachin/RisenPC-Fluxbox-ES-Mint-21)
 
 Segundo, le sugiero que lo ubique en una carpeta, ejemplo yo estoy usando una carpeta con el nombre:
 
@@ -28,8 +28,8 @@ sea como sea, usted deberá quedar ubicado en una terminal allí en AppsLinux o 
 copiar lo siguiente y ponerlo en una terminal:
 
 ```
-git clone https://github.com/wachin/RisenPC-Fluxbox-ES
-ln -s ~/AppsLinux/RisenPC-Fluxbox-ES ~/.fluxbox
+git clone https://github.com/wachin/RisenPC-Fluxbox-ES-Mint-21
+ln -s ~/AppsLinux/RisenPC-Fluxbox-ES-Mint-21 ~/.fluxbox
 ```
 
 esto clonará el repositorio creando la carpeta:
@@ -42,4 +42,4 @@ y creará un enlace a:
 
 entonces usted podrá hacer cambios en el repositorio y automáticamente se verán reflejados en .fluxbox que es la carpeta de configuraciones de Fluxbox y serán aplicados los cambios en el menú u otras configuraciones que haga.
 
-**Nota:** No borre la carpeta: RisenPC-Fluxbox-ES
+**Nota:** No borre la carpeta: RisenPC-Fluxbox-ES-Mint-21
