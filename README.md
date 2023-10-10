@@ -1,14 +1,10 @@
 # RisenPC-Fluxbox-ES-Mint-21
 Fluxbox personalizado en español para Ordenadores con pocos recursos
 
-Si bien es cierto MX Linux 21 tiene una versión con Fluxbox no me gusta cómo la han hecho, ejemplo ellos han reemplazado la barra de tareas que si tiene Fluxbox por la de un programa, yo prefiero usar la que tiene Fluxbox
-
 # Requerimientos
 Se requiere lo sigiente:
 
-- MX Linux 21 versión XFCE de 32 o 64 bits
-
-**Nota:** Pero también se puede instalar en MX 19 u otro superior de MX Linux
+- Linux Mint 21
 
 **Descargar Linux Mint 21:**
 
@@ -18,10 +14,9 @@ redirigido desde (donde están las ISO más actuales):
 
 [https://mxlinux.org/download-links/](https://mxlinux.org/download-links/)  
 
-**Explicación.-** Esta versión de MX Linux XFCE no trae instalado la versión de Fluxbox MX Linux por lo cual allí podremos usar estas configuraciones (digo esto porque MX Linux tiene una versión de Fluxbox pero yo no la uso porque no me gusta). Además es importante tomar en cuenta que todo este tutorial está diseñado para MX Linux 21 por lo que si lo desea usar en otro Sistema Operativo Linux deberá modificarlo muy seguramente.
 
 # Instalación de Fluxbox y dependencias
-Este tutorial ha sido hecho en MX Linux 21 la versión XFCE. Con lo siguiente nos aseguraremos de habilitar lo más basico además de dejar configuradas las aplicaciones KDE 
+Con lo siguiente nos aseguraremos de habilitar lo más basico además de dejar configuradas las aplicaciones KDE 
 
 **Dependencias**
 
@@ -31,7 +26,6 @@ Este tutorial ha sido hecho en MX Linux 21 la versión XFCE. Con lo siguiente no
 
 dele Enter y poner "s" de que si acepta
 
-**Nota:** Para instalarlo en MX Linux 19 debe quitar el paquete gammy.   
 
 # Borre los estilos del paquete de Fluxbox  
 
