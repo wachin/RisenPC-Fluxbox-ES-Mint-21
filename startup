@@ -1,0 +1,147 @@
+#!/bin/sh
+#
+# fluxbox startup-script:
+#
+# Lines starting with a '#' are ignored.
+
+# Change your keymap:
+xmodmap "~/.Xmodmap"
+
+
+# APLICACIONES QUE SE LANZARÁN AL INICIO EN FLUXBOX
+
+# Colocar el administrador de red en la barra de herramientas
+nm-applet &
+
+# Acceso root añadido para ciertas aplicaciones como: Synaptic, Discos, etc
+/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+
+# inicie pulseaudio antes de pnmixer
+start-pulseaudio-x11 &
+sleep 2
+pnmixer &
+
+# Para que la tecla numerica funcione
+numlockx on &
+
+# Para controlar el brillo en pantalla y la lúz azúl en la noche:
+gammy &
+
+# Terminal de Gnome que funciona bien en Fluxbox
+gnome-terminal &
+
+# Es nesesario para poder configurar la velocidad de los cursores de dispositivos externos:
+xinput-gui &
+
+# Lanzar el Administrador de archivos
+# Pueden activar cualquiera de los siguientes si los instalan(exepto thunar que ya está instalado): 
+thunar &
+#dolphin &
+#caja & 
+# nemo &
+# nautilus &
+# pcmanfm &
+
+# Editores de texto, elija cual usar (debe instalarlo):
+kate &
+#gedit & 
+#pluma &
+#geany &
+
+# Poner el bloque de notas de XFCE en la bandeja del sistema:
+sleep 5; xfce4-notes &
+
+# Aplicacion para poder expulsar USB, Pendrives
+mx-usb-unmounter &
+
+# Iniciar el bus de accesibilidad del usuario, si aún no se está ejecutando
+/usr/libexec/at-spi-bus-launcher --launch-immediately  &
+
+# Colocar en el escritorio el último fondo seleccionado
+sleep 10; nitrogen --restore &
+
+
+
+# AJUSTE DE DISTRIBUCIÓN DE TECLADO
+# Si usted usa un teclado en español con el esquema siguiente: http://kbdlayout.info/kbdsp/overview+names
+# le recomiendo que use el siguienta para que coincidan las letras:
+setxkbmap -layout es & # Teclado Español europeo
+
+# Si desea otro teclado aquí están (igual si activan alguno deben desactivar el anterior):
+#setxkbmap -layout de & # Teclado Alemán
+#setxkbmap -layout us & # Teclado Inglés
+#setxkbmap -layout latam & # Teclado Español latino
+#setxkbmap -layout fr & # Teclado Francés
+#setxkbmap -layout gb & # Teclado Inglés británico
+#setxkbmap -layout gr & # Teclado Griego
+#setxkbmap -layout it & # Teclado Italiano
+#setxkbmap -layout pl & # Teclado Polaco
+#setxkbmap -layout pt & # Teclado Portugués
+#setxkbmap -layout ru & # Teclado Ruso
+             
+# Esto es necesario apra asegurarse que al inicio se cargue el teclado correcto
+# En el sistema operativo los demás idiomas están en /usr/share/X11/xkb/symbols/
+# eso es si desea saber cuál es el nombre del archivo, allí usted
+# deberá abrir alguno, ejemplo puede abrir: de el cual es el alemán
+# algún otro idioma usted debería tener alguna idea de cómo se podría 
+# llamar el respectivo archivo
+
+# PROGRAMAS DE USUARIO (OPCIONALES)
+# Lo siguiente es para aplicaciones opcionales que quiera algún usuario:
+
+# Para hacer capturas de pantalla
+ksnip &
+
+# Navegadores web, elija cual usar:
+# firefox-esr &
+firefox &
+# chromium &
+
+# Si Ud usa una impresora HP deberá de instalar HPLIP instále: sudo apt-get install hplip-gui
+# para lanzarlo se puede desde las aplicaciones instaladas 
+# o también desde la terminal con: hp-systray -x
+# y para que se cargue en la bandeja del sistema active lo siguiente:
+#hp-systray -x &
+
+# Si usa Shutter para tomar captura de pantallas, este es el comando 
+# para que se cargue iconizado y no ocupe espacio 
+#shutter --min_at_startup &
+
+# El siguiente es para activar el monitor debatería, pero no lo active porque no funciona con gammy abierto:
+#xfce4-power-manager &
+
+# Poner el portapapeles en la barra de herramientas
+# xfce4-clipman &
+
+# Si usted utiliza Dropbox el siguiente comando es para que se abra
+#dropbox start -i &
+
+# Si tu laptop u ordenador tiene Bluetooth debe activarlo y si 
+#blueman-applet &
+
+# Si uste tuviera un teclado externo Logitech k400 instale: sudo apt install solaar
+# busquelo entre sus aplicaciones, yo lo uso para invertir la tecla Fn
+# para que se iconize en la bandeja del sistema active:
+#solaar &
+
+# SI DESEA AÑADIR UNA APLICACION AL INICIO ASEGÚRESE DE PONER''&'' AL FINAL, EJEMPLO:
+#
+# unclutter -idle 2 &
+# wmnd &
+# wmsmixer -w &
+# idesk &
+#
+# Debian-local change:
+#   - fbautostart has been added with a quick hack to check to see if it
+#     exists. If it does, we'll start it up by default.
+which fbautostart > /dev/null
+if [ $? -eq 0 ]; then
+    fbautostart
+fi
+
+# And last but not least we start fluxbox.
+# Because it is the last app you have to run it with ''exec'' before it.
+
+exec fluxbox
+# or if you want to keep a log:
+# exec fluxbox -log "~/.fluxbox/log"
