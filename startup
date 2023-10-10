@@ -14,7 +14,7 @@ xmodmap "~/.Xmodmap"
 nm-applet &
 
 # Acceso root añadido para ciertas aplicaciones como: Synaptic, Discos, etc
-/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+/usr/lib/x86_64-linux-gnu/polkit-mate/polkit-mate-authentication-agent-1 &
 
 # inicie pulseaudio antes de pnmixer
 start-pulseaudio-x11 &
