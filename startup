@@ -49,7 +49,7 @@ xed &
 #geany &
 
 # Poner el bloque de notas de XFCE en la bandeja del sistema:
-sleep 5; sticky &
+sleep 5; xfce4-notes &
 
 # Aplicacion para poder expulsar USB, Pendrives
 mx-usb-unmounter &
@@ -90,7 +90,8 @@ setxkbmap -layout es & # Teclado Español europeo
 # Lo siguiente es para aplicaciones opcionales que quiera algún usuario:
 
 # Para hacer capturas de pantalla
-ksnip &
+#ksnip &
+shutter &
 
 # Navegadores web, elija cual usar:
 # firefox-esr &

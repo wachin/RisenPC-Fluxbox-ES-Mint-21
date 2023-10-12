@@ -1,0 +1,93 @@
+[submenu] (Aplicaciones) </usr/share/icons/Adwaita/16x16/legacy/applications-other.png>
+  [submenu] (Accesorios) </usr/share/icons/Adwaita/16x16/legacy/applications-accessories.png>
+    [exec] (Archivos) {nemo } </usr/share/icons/Adwaita/16x16/legacy/system-file-manager.png>
+    [exec] (Buscador de aplicaciones) {xfce4-appfinder} </usr/share/icons/hicolor/16x16/apps/org.xfce.appfinder.png>
+    [exec] (Calculadora) {gnome-calculator}
+    [exec] (Captura de pantalla) {gnome-screenshot --interactive}
+    [exec] (Contraseñas y claves) {seahorse}
+    [exec] (Discos) {gnome-disks}
+    [exec] (Editor de texto) {xed } </usr/share/icons/Adwaita/16x16/legacy/accessories-text-editor.png>
+    [exec] (Formateador de memorias USB) {mintstick -m format} </usr/share/icons/hicolor/16x16/apps/mintstick.png>
+    [exec] (Gestor de archivadores) {file-roller }
+    [exec] (Grabador de imágenes USB) {mintstick -m iso} </usr/share/icons/hicolor/16x16/apps/mintstick.png>
+    [exec] (Gxkb) {gxkb} </usr/share/pixmaps/gxkb.xpm>
+    [exec] (Mapa de caracteres) {gucharmap} </usr/share/icons/Adwaita/16x16/legacy/accessories-character-map.png>
+    [exec] (Notas) {sticky}
+    [exec] (Onboard) {onboard} </usr/share/icons/hicolor/16x16/apps/onboard.png>
+    [exec] (PlayOnLinux) {playonlinux } </usr/share/pixmaps/playonlinux.png>
+    [exec] (Redshift) {redshift-gtk}
+    [exec] (Renombrador de archivos) {bulky}
+    [exec] (Tipografías) {gnome-font-viewer } </usr/share/icons/Adwaita/16x16/legacy/preferences-desktop-font.png>
+    [exec] (Vim) {/usr/bin/x-terminal-emulator -e vim } </usr/share/icons/hicolor/48x48/apps/gvim.png>
+    [exec] (Visor de documentos) {xreader } </usr/share/icons/hicolor/16x16/apps/xreader.png>
+    [exec] (Visor de imágenes) {xviewer } </usr/share/icons/hicolor/16x16/apps/xviewer.png>
+    [exec] (Warpinator) {warpinator} </usr/share/icons/hicolor/16x16/apps/org.x.Warpinator.png>
+    [exec] (ksnip) {ksnip}
+    [exec] (nitrogen) {nitrogen} </usr/share/icons/hicolor/16x16/apps/nitrogen.png>
+  [end] # (Accesorios)
+  [submenu] (Configuración) </usr/share/icons/Adwaita/16x16/legacy/preferences-desktop.png>
+    [exec] (Ajustes QT5) {qt5ct} </usr/share/icons/Adwaita/16x16/legacy/preferences-desktop-theme.png>
+    [exec] (Ajustes del monitor) {lxrandr} </usr/share/icons/Adwaita/16x16/legacy/video-display.png>
+    [exec] (Configuración de red avanzada) {nm-connection-editor} </usr/share/icons/Adwaita/16x16/legacy/preferences-system-network.png>
+    [exec] (Configuración del cortafuegos) {gufw} </usr/share/icons/hicolor/48x48/apps/gufw.png>
+    [exec] (Gestor de conexiones Bluetooth) {blueman-manager} </usr/share/icons/hicolor/16x16/status/blueman.png>
+    [exec] (Idiomas) {mintlocale} </usr/share/icons/Adwaita/16x16/legacy/preferences-desktop-locale.png>
+    [exec] (Impresoras) {system-config-printer} </usr/share/icons/Adwaita/16x16/devices/printer.png>
+    [exec] (Método de entrada) {mintlocale-im} </usr/share/icons/hicolor/16x16/apps/mintlocale-im.png>
+    [exec] (Pantalla de bienvenida) {mintwelcome}
+    [exec] (Personalizar apariencia y comportamiento) {lxappearance} </usr/share/icons/Adwaita/16x16/legacy/preferences-desktop-theme.png>
+    [exec] (Preferencias de IBus) {ibus-setup}
+    [exec] (Preferencias del escritorio) {pcmanfm --desktop-pref} </usr/share/icons/Adwaita/16x16/places/user-desktop.png>
+    [exec] (Ventana de inicio de sesión) {pkexec lightdm-settings} </usr/share/icons/hicolor/16x16/apps/lightdm-settings.png>
+  [end] # (Configuración)
+  [submenu] (Gráficos) </usr/share/icons/Adwaita/16x16/legacy/applications-graphics.png>
+    [exec] (Dibujo) {drawing } </usr/share/icons/hicolor/48x48/apps/com.github.maoschanz.drawing.png>
+    [exec] (Escáner de documentos) {simple-scan}
+    [exec] (Pix) {pix } </usr/share/icons/hicolor/16x16/apps/pix.png>
+  [end] # (Gráficos)
+  [submenu] (Multimedia) </usr/share/icons/gnome/16x16/categories/applications-multimedia.png>
+    [exec] (Celluloid) {celluloid }
+    [exec] (Hypnotix) {hypnotix}
+    [exec] (PNMixer) {pnmixer} </usr/share/icons/hicolor/128x128/apps/pnmixer.png>
+    [exec] (Rhythmbox) {rhythmbox }
+  [end] # (Multimedia)
+  [submenu] (Oficina) </usr/share/icons/Adwaita/16x16/legacy/applications-office.png>
+    [exec] (Biblioteca) {thingy}
+    [exec] (Calendario) {gnome-calendar }
+    [exec] (LibreOffice) {libreoffice } </usr/share/icons/hicolor/16x16/apps/libreoffice-startcenter.png>
+    [exec] (LibreOffice Base) {libreoffice --base } </usr/share/icons/hicolor/16x16/apps/libreoffice-base.png>
+    [exec] (LibreOffice Calc) {libreoffice --calc } </usr/share/icons/hicolor/16x16/apps/libreoffice-calc.png>
+    [exec] (LibreOffice Draw) {libreoffice --draw } </usr/share/icons/hicolor/16x16/apps/libreoffice-draw.png>
+    [exec] (LibreOffice Impress) {libreoffice --impress } </usr/share/icons/hicolor/16x16/apps/libreoffice-impress.png>
+    [exec] (LibreOffice Math) {libreoffice --math } </usr/share/icons/hicolor/16x16/apps/libreoffice-math.png>
+    [exec] (LibreOffice Writer) {libreoffice --writer } </usr/share/icons/hicolor/16x16/apps/libreoffice-writer.png>
+    [exec] (WPS 2019) {/usr/bin/wps } </usr/share/icons/hicolor/16x16/mimetypes/wps-office2019-kprometheus.png>
+    [exec] (WPS PDF) {/usr/bin/wpspdf } </usr/share/icons/hicolor/16x16/mimetypes/wps-office2019-pdfmain.png>
+    [exec] (WPS Presentation) {/usr/bin/wpp } </usr/share/icons/hicolor/16x16/mimetypes/wps-office2019-wppmain.png>
+    [exec] (WPS Spreadsheets) {/usr/bin/et } </usr/share/icons/hicolor/16x16/mimetypes/wps-office2019-etmain.png>
+    [exec] (WPS Writer) {/usr/bin/wps } </usr/share/icons/hicolor/16x16/mimetypes/wps-office2019-wpsmain.png>
+  [end] # (Oficina)
+  [submenu] (Red) </usr/share/icons/Adwaita/16x16/legacy/applications-internet.png>
+    [exec] (Aplicaciones web) {webapp-manager}
+    [exec] (Cliente de correo Thunderbird) {thunderbird } </usr/share/icons/hicolor/16x16/apps/thunderbird.png>
+    [exec] (HexChat) {hexchat --existing } </usr/share/icons/hicolor/48x48/apps/hexchat.png>
+    [exec] (Microsoft Edge) {/usr/bin/microsoft-edge-stable } </usr/share/icons/hicolor/16x16/apps/microsoft-edge.png>
+    [exec] (Navegador web Firefox) {firefox } </usr/share/icons/hicolor/16x16/apps/firefox.png>
+    [exec] (Transmission) {transmission-gtk } </usr/share/pixmaps/transmission.xpm>
+  [end] # (Red)
+  [submenu] (Sistema) </usr/share/icons/Adwaita/16x16/legacy/applications-system.png>
+    [exec] (Analizador de uso de disco) {baobab }
+    [exec] (Fuentes de software) {pkexec mintsources}
+    [exec] (Gestor de actualizaciones) {mintupdate} </usr/share/icons/hicolor/16x16/apps/mintupdate.png>
+    [exec] (Gestor de archivos PCManFM) {pcmanfm } </usr/share/icons/Adwaita/16x16/legacy/system-file-manager.png>
+    [exec] (Gestor de controladores) {pkexec driver-manager}
+    [exec] (Gestor de paquetes Synaptic) {synaptic-pkexec} </usr/share/pixmaps/synaptic.png>
+    [exec] (Gestor de software) {mintinstall}
+    [exec] (Grub Customizer) {grub-customizer}
+    [exec] (Herramienta de copia de seguridad) {mintbackup}
+    [exec] (Informes del sistema) {mintreport}
+    [exec] (Monitor del sistema) {gnome-system-monitor}
+    [exec] (Registros) {gnome-logs}
+    [exec] (Timeshift) {timeshift-launcher} </usr/share/icons/hicolor/16x16/apps/timeshift.png>
+  [end] # (Sistema)
+[end] # (Aplicaciones)
