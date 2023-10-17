@@ -27,8 +27,11 @@ numlockx on &
 # Para controlar el brillo en pantalla y la lúz azúl en la noche:
 gammy &
 
-# Terminal de Gnome que funciona bien en Fluxbox
-gnome-terminal &
+# La terminal "Gnome Console"(kgx) funciona bien en Fluxbox en Linux Mint 21 Vanessa
+kgx &
+
+# La siguiente terminal no funciona bien en Linux Mint Vanessa:
+#gnome-terminal &
 
 # Es nesesario para poder configurar la velocidad de los cursores de dispositivos externos:
 xinput-gui &

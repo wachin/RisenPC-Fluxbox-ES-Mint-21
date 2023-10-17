@@ -25,7 +25,7 @@ Con lo siguiente nos aseguraremos de habilitar lo más basico además de dejar c
     sudo apt install git fluxbox lxappearance \
     lxrandr pnmixer numlockx gnome-console \
     xfce4-appfinder qt5ct nitrogen lxsession-logout \
-    gxkb gnome-icon-theme pavucontrol
+    gxkb gnome-icon-theme pavucontrol redshift-gtk
 
 dele Enter y poner "s" de que si acepta
 
