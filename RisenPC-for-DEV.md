@@ -40,6 +40,8 @@ y creará un enlace a:
 
 .fluxbox
 
+**REINICIE EL ORDENADOR**
+
 entonces usted podrá hacer cambios en el repositorio y automáticamente se verán reflejados en .fluxbox que es la carpeta de configuraciones de Fluxbox y serán aplicados los cambios en el menú u otras configuraciones que haga.
 
 **Nota:** No borre la carpeta: RisenPC-Fluxbox-ES-Mint-21

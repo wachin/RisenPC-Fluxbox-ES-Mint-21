@@ -1,0 +1,9 @@
+[Nemo Action]
+
+Name=Open in Gnome Console
+Comment=Open the 'Gnome Console' terminal in the selected folder
+Exec=kgx --working-directory=%F
+Icon-Name=org.gnome.Console
+Selection=any
+Extensions=dir;
+EscapeSpaces=true
