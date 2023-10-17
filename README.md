@@ -4,21 +4,20 @@ Fluxbox personalizado en español para Ordenadores con pocos recursos
 # Requerimientos
 Se requiere lo sigiente:
 
-- Linux Mint 21 Vanessa
+- Linux Mint 21 Vanessa  
 
 **Descargar Linux Mint 21 Vanessa:**
 
-https://linuxmint.com/edition.php?id=299
+https://linuxmint.com/edition.php?id=299  
 
-Espejo:
+Espejo:  
 
-https://muug.ca/mirror/linuxmint/iso/stable/21/
-
+https://muug.ca/mirror/linuxmint/iso/stable/21/  
 
 
 
 # Instalación de Fluxbox y dependencias
-Con lo siguiente nos aseguraremos de habilitar lo más basico además de dejar configuradas las aplicaciones KDE 
+Con lo siguiente nos aseguraremos de habilitar lo más basico además de dejar configuradas las aplicaciones KDE   
 
 **Dependencias**
 
@@ -27,10 +26,10 @@ Con lo siguiente nos aseguraremos de habilitar lo más basico además de dejar c
     xfce4-appfinder qt5ct nitrogen lxsession-logout \
     gxkb gnome-icon-theme pavucontrol redshift-gtk
 
-dele Enter y poner "s" de que si acepta
+dele Enter y poner "s" de que si acepta  
 
 **Opcional para programas KDE**
-Si usará programas de KDE como ejemplo Kdenlive, es recomendable que instale el paquete:
+Si usará programas de KDE como ejemplo Kdenlive, es recomendable que instale el paquete:  
 
 	sudo apt install breeze
 
@@ -791,3 +790,7 @@ https://wiki.archlinux.org/title/nitrogen
 Xubuntu Thunar "Open Terminal Here" opens konsole in homefolder  
 https://askubuntu.com/questions/891680/xubuntu-thunar-open-terminal-here-opens-konsole-in-homefolder  
 https://askubuntu.com/a/892502  https://github.com/mifi/lossless-cut
+
+How to configure Nemo's right-click "Open in Terminal" to launch "gnome-terminal"  
+https://unix.stackexchange.com/questions/336368/how-to-configure-nemos-right-click-open-in-terminal-to-launch-gnome-terminal  
+https://unix.stackexchange.com/a/582462

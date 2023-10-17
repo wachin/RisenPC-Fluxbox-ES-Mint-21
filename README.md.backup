@@ -25,7 +25,7 @@ Con lo siguiente nos aseguraremos de habilitar lo más basico además de dejar c
     sudo apt install git fluxbox lxappearance \
     lxrandr pnmixer numlockx gnome-console \
     xfce4-appfinder qt5ct nitrogen lxsession-logout \
-    gxkb gnome-icon-theme pavucontrol
+    gxkb gnome-icon-theme pavucontrol redshift-gtk
 
 dele Enter y poner "s" de que si acepta
 
@@ -791,3 +791,7 @@ https://wiki.archlinux.org/title/nitrogen
 Xubuntu Thunar "Open Terminal Here" opens konsole in homefolder  
 https://askubuntu.com/questions/891680/xubuntu-thunar-open-terminal-here-opens-konsole-in-homefolder  
 https://askubuntu.com/a/892502  https://github.com/mifi/lossless-cut
+
+How to configure Nemo's right-click "Open in Terminal" to launch "gnome-terminal"  
+https://unix.stackexchange.com/questions/336368/how-to-configure-nemos-right-click-open-in-terminal-to-launch-gnome-terminal  
+https://unix.stackexchange.com/a/582462
