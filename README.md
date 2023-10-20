@@ -91,9 +91,11 @@ copie todo de una sola vez (Terminales como XFCE4-Terminal o Konsole admiten peg
 ```
     git clone https://github.com/wachin/RisenPC-Fluxbox-ES
     mv RisenPC-Fluxbox-ES ~/.fluxbox
-    cd .fluxbox
+    cd ~/.fluxbox/wachin
     mkdir -p ~/.config/pnmixer/
-    cp config ~/.config/pnmixer/ && cd && echo "Dios les bendiga"
+    cp config ~/.config/pnmixer/
+    cp open_in_gnome_console.nemo_action ~/.local/share/nemo/actions/
+    echo "Dios les bendiga" && cd ~
 ```
 
 peguelo en una terminal como lo indica la imagen anterior y ejecutelo
