@@ -46,6 +46,6 @@
       [stylesdir] (/usr/share/fluxbox/styles)
       [stylesdir] (~/.fluxbox/styles)
    [end]
- [exec] (Salir) {/usr/bin/lxsession-logout} </usr/share/icons/gnome/16x16/actions/stop.png>
+ [exec] (Salir) {/usr/bin/exit-options} </usr/share/icons/gnome/16x16/actions/stop.png>
  [end] # (Salir)
 [end]

@@ -7,9 +7,7 @@
     [exec] (Captura de pantalla) {gnome-screenshot --interactive} </usr/share/icons/Mint-Y/apps/16/org.gnome.Screenshot.png>
     [exec] (Contraseñas y claves) {seahorse} </usr/share/icons/Mint-Y/apps/16/org.gnome.seahorse.Application.png>
     [exec] (Discos) {gnome-disks} </usr/share/icons/Mint-Y/apps/16/org.gnome.DiskUtility.png>
-    [exec] (Editor de texto) {gnome-text-editor }
     [exec] (Editor de texto) {xed } </usr/share/icons/Mint-Y/apps/16/accessories-text-editor.png>
-    [exec] (Editor de textos) {gedit }
     [exec] (Formateador de memorias USB) {mintstick -m format} </usr/share/icons/Mint-Y/apps/16/mintstick.png>
     [exec] (Gestor de archivadores) {file-roller } </usr/share/icons/Mint-Y/apps/16/org.gnome.ArchiveManager.png>
     [exec] (Grabador de imágenes USB) {mintstick -m iso} </usr/share/icons/Mint-Y/apps/16/mintstick.png>
@@ -63,6 +61,7 @@
   [submenu] (Multimedia) </usr/share/icons/Mint-Y/categories/16/applications-multimedia.png>
     [exec] (Audacity) {env UBUNTU_MENUPROXY=0 GDK_BACKEND=x11 audacity } </usr/share/icons/Mint-Y/apps/16/audacity.png>
     [exec] (Celluloid) {celluloid } </usr/share/icons/Mint-Y/apps/16/io.github.celluloid_player.Celluloid.png>
+    [exec] (Control de volumen de PulseAudio) {pavucontrol} </usr/share/icons/Mint-Y/apps/16/multimedia-volume-control.png>
     [exec] (Hypnotix) {hypnotix} </usr/share/icons/Mint-Y/apps/16/hypnotix.png>
     [exec] (PNMixer) {pnmixer} </usr/share/icons/hicolor/128x128/apps/pnmixer.png>
     [exec] (Rhythmbox) {rhythmbox } </usr/share/icons/Mint-Y/apps/16/org.gnome.Rhythmbox.png>
