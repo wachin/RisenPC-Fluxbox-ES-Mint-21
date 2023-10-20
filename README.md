@@ -107,11 +107,9 @@ peguelo en una terminal como lo indica la imagen anterior y ejecutelo
 4ra línea.-  Crea la carpeta pnmixer (si ya estuviera no)  
 5ta línea.- Copia y pega el archivo config de pnmixer que puse dentro de la carpeta wachin que contiene la instrucción "pavucontrol" para que al darle clic y dar clic en elbotón "Mixer" aparezca el control de volumen. **Nota:** También se lo podría Ud poner manualmente así: Clic derecho al icono --> Preferences --> Behavior --> Volume Control Command y allí añadir: "pavucontrol"   
 6ta línea.- Copia el archivo open_in_gnome_console.nemo_action a Nemo actions para que aparezca la opción de abrir terminal aquí en Nemo pues en Fluxbox la terminal que normalmente abre Nemo no se ve bien, no encaja  
-7ta línea.- Saludo
+7ta línea.- Saludo y salir a HOME en la terminal
 
 
-
-Por cierto, en la terminal quedarán ubicados en .fluxbox pero pueden salir de allí con cd.
 
 
 ## Instalar RisenPC Fluxbox Español para Desarrolladores
