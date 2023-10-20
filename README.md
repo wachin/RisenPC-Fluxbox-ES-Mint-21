@@ -86,7 +86,7 @@ Abra una terminal y:
 
 ![](vx_images/357762909269284.png)
 
-copie todo de una sola vez (Terminales como XFCE4-Terminal o Konsole admiten pegar todo de una sola vez) (también si no le funciona copie uno por uno):
+copie todo de una sola vez (Terminales como XFCE4-Terminal o Konsole admiten pegar todo de una sola vez) (también si no le funciona copie uno por uno):    
 
 ```
     git clone https://github.com/wachin/RisenPC-Fluxbox-ES
@@ -98,14 +98,18 @@ copie todo de una sola vez (Terminales como XFCE4-Terminal o Konsole admiten peg
     echo "Dios les bendiga" && cd ~
 ```
 
-peguelo en una terminal como lo indica la imagen anterior y ejecutelo
+peguelo en una terminal como lo indica la imagen anterior y ejecutelo  
     
 **Explicación**  
 1er línea.- Clona el repositorio  
-2da línea.- Mueve el repositorio entero allí mismo en su HOME cambiandole el nombre a .fluxbox  
-3ra línea.- Entra en la carpeta oculta .fluxbox  
+2da línea.- Mueve el repositorio entero allí mismo en su HOME cambiandole el nombre a .fluxbox como carpeta oculta  
+3ra línea.- Entra en la ruta: ~/.fluxbox/wachin  
 4ra línea.-  Crea la carpeta pnmixer (si ya estuviera no)  
-5ta línea.- Copia y pega el archivo config de pnmixer que puse dentro de la carpeta .fluxbox que contiene la instrucción "pavucontrol" para que al darle clic y dar clic en elbotón "Mixer" aparezca el control de volumen. **Nota:** También se lo podría Ud poner manualmente así: Clic derecho al icono --> Preferences --> Behavior --> Volume Control Command y allí añadir: "pavucontrol"  
+5ta línea.- Copia y pega el archivo config de pnmixer que puse dentro de la carpeta wachin que contiene la instrucción "pavucontrol" para que al darle clic y dar clic en elbotón "Mixer" aparezca el control de volumen. **Nota:** También se lo podría Ud poner manualmente así: Clic derecho al icono --> Preferences --> Behavior --> Volume Control Command y allí añadir: "pavucontrol"   
+6ta línea.- Copia el archivo open_in_gnome_console.nemo_action a Nemo actions para que aparezca la opción de abrir terminal aquí en Nemo pues en Fluxbox la terminal que normalmente abre Nemo no se ve bien, no encaja  
+7ta línea.- Saludo
+
+
 
 Por cierto, en la terminal quedarán ubicados en .fluxbox pero pueden salir de allí con cd.
 
