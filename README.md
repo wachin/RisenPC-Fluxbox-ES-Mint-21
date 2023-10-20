@@ -47,6 +47,16 @@ e instalarlo con GDebi con clic derecho
 
 
 
+# Actualizar fluxbox (opcional)
+
+entre en la siguiente dirección:
+
+https://mxrepo.com/mx/repo/pool/main/f/fluxbox/
+
+![](vx_images/20231020-105353-fluxbox-antix-1.3.7.png)
+
+e instalarlo con GDebi con clic derecho
+
 # Borre los estilos del paquete de Fluxbox  
 
 El comando anterior instalará fluxbox pero ese trae unos temas muy feos, yo nunca los uso, yo los borro, le recomiendo hacer lo mismo, ponga en la terminal:
