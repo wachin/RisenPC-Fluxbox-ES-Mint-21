@@ -1,0 +1,10 @@
+Xft/Antialias 1
+Xft/HintStyle "hintfull"
+Xft/Hinting 1
+Xft/RGBA "none"
+
+Xft/lcdfilter "none"
+
+Net/IconThemeName "Mint-X-Teal"
+Net/ThemeName "Adwaita"
+Gtk/FontName "DejaVu Sans 10"

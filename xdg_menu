@@ -1,13 +1,15 @@
 [submenu] (Aplicaciones) </usr/share/icons/Mint-Y/categories/16/applications-other.png>
   [submenu] (Accesorios) </usr/share/icons/Mint-Y/categories/16/applications-accessories.png>
-    [exec] (Archivos) {nemo } </usr/share/icons/Mint-Y-Dark-Yellow/places/16/system-file-manager.png>
+    [exec] (Archivos) {nemo } </usr/share/icons/Mint-Y/places/16/system-file-manager.png>
     [exec] (Artha) {artha} </usr/share/pixmaps/artha.png>
     [exec] (Buscador de aplicaciones) {xfce4-appfinder} </usr/share/icons/Mint-Y/apps/16/org.xfce.appfinder.png>
     [exec] (Calculadora) {gnome-calculator} </usr/share/icons/Mint-Y/apps/16/org.gnome.Calculator.png>
     [exec] (Captura de pantalla) {gnome-screenshot --interactive} </usr/share/icons/Mint-Y/apps/16/org.gnome.Screenshot.png>
     [exec] (Contraseñas y claves) {seahorse} </usr/share/icons/Mint-Y/apps/16/org.gnome.seahorse.Application.png>
     [exec] (Discos) {gnome-disks} </usr/share/icons/Mint-Y/apps/16/org.gnome.DiskUtility.png>
+    [exec] (Double Commander) {doublecmd } </usr/share/icons/Mint-Y/apps/16/doublecmd.png>
     [exec] (Editor de texto) {xed } </usr/share/icons/Mint-Y/apps/16/accessories-text-editor.png>
+    [exec] (Editor de textos) {gedit }
     [exec] (Formateador de memorias USB) {mintstick -m format} </usr/share/icons/Mint-Y/apps/16/mintstick.png>
     [exec] (Gestor de archivadores) {file-roller } </usr/share/icons/Mint-Y/apps/16/org.gnome.ArchiveManager.png>
     [exec] (Grabador de imágenes USB) {mintstick -m iso} </usr/share/icons/Mint-Y/apps/16/mintstick.png>
@@ -30,12 +32,14 @@
     [exec] (Xarchiver) {xarchiver } </usr/share/icons/Mint-Y/apps/16/xarchiver.png>
     [exec] (ksnip) {ksnip}
     [exec] (nitrogen) {nitrogen} </usr/share/icons/hicolor/16x16/apps/nitrogen.png>
+    [exec] (picom) {picom}
   [end] # (Accesorios)
   [submenu] (Configuración) </usr/share/icons/Mint-Y/categories/16/preferences-desktop.png>
     [exec] (Ajustes QT5) {qt5ct} </usr/share/icons/Mint-Y/apps/16/preferences-desktop-theme.png>
     [exec] (Ajustes del monitor) {lxrandr} </usr/share/icons/Mint-Y/devices/16/video-display.png>
     [exec] (Configuración de red avanzada) {nm-connection-editor} </usr/share/icons/Mint-Y/apps/16/preferences-system-network.png>
     [exec] (Configuración del cortafuegos) {gufw} </usr/share/icons/Mint-Y/apps/16/gufw.png>
+    [exec] (Efectos de ventana) {compton-conf} </usr/share/icons/hicolor/48x48/apps/compton.png>
     [exec] (Gestor de conexiones Bluetooth) {blueman-manager} </usr/share/icons/Mint-Y/apps/16/blueman.png>
     [exec] (Idiomas) {mintlocale} </usr/share/icons/Mint-Y/apps/16/preferences-desktop-locale.png>
     [exec] (Impresoras) {system-config-printer} </usr/share/icons/Mint-Y/devices/16/printer.png>
@@ -43,7 +47,7 @@
     [exec] (Pantalla de bienvenida) {mintwelcome} </usr/share/icons/Mint-Y/apps/16/mintwelcome.png>
     [exec] (Personalizar apariencia y comportamiento) {lxappearance} </usr/share/icons/Mint-Y/apps/16/preferences-desktop-theme.png>
     [exec] (Preferencias de IBus) {ibus-setup} </usr/share/icons/Mint-Y/apps/16/ibus-setup.png>
-    [exec] (Preferencias del escritorio) {pcmanfm --desktop-pref} </usr/share/icons/Mint-Y-Dark-Yellow/places/16/user-desktop.png>
+    [exec] (Preferencias del escritorio) {pcmanfm --desktop-pref} </usr/share/icons/Mint-Y/places/16/user-desktop.png>
     [exec] (Ventana de inicio de sesión) {pkexec lightdm-settings} </usr/share/icons/Mint-Y/apps/16/lightdm-settings.png>
   [end] # (Configuración)
   [submenu] (Desarrollo) </usr/share/icons/Mint-Y/categories/16/applications-development.png>
@@ -103,16 +107,18 @@
     [exec] (Navegador web Firefox) {firefox } </usr/share/icons/Mint-Y/apps/16/firefox.png>
     [exec] (Telegram Desktop) {/home/paco/AppsLinux/Telegram/Telegram -- } </home/paco/.local/share/icons/telegram.png>
     [exec] (Transmission) {transmission-gtk } </usr/share/icons/Mint-Y/apps/16/transmission.png>
+    [exec] (Zoom) {/usr/bin/zoom } </usr/share/pixmaps/Zoom.png>
   [end] # (Red)
   [submenu] (Sistema) </usr/share/icons/Mint-Y/categories/16/applications-system.png>
     [exec] (Analizador de uso de disco) {baobab } </usr/share/icons/Mint-Y/apps/16/org.gnome.baobab.png>
     [exec] (Consola) {kgx}
     [exec] (Fuentes de software) {pkexec mintsources} </usr/share/icons/Mint-Y/apps/16/mintsources.png>
     [exec] (Gestor de actualizaciones) {mintupdate} </usr/share/icons/Mint-Y/apps/16/mintupdate.png>
-    [exec] (Gestor de archivos PCManFM) {pcmanfm } </usr/share/icons/Mint-Y-Dark-Yellow/places/16/system-file-manager.png>
+    [exec] (Gestor de archivos PCManFM) {pcmanfm } </usr/share/icons/Mint-Y/places/16/system-file-manager.png>
     [exec] (Gestor de controladores) {pkexec driver-manager} </usr/share/icons/Mint-Y/apps/16/mintdrivers.png>
     [exec] (Gestor de paquetes Synaptic) {synaptic-pkexec} </usr/share/icons/Mint-Y/apps/16/synaptic.png>
     [exec] (Gestor de software) {mintinstall} </usr/share/icons/Mint-Y/apps/16/mintinstall.png>
+    [exec] (Gestor de tareas) {lxtask} </usr/share/icons/Mint-Y/apps/16/utilities-system-monitor.png>
     [exec] (Grub Customizer) {grub-customizer} </usr/share/icons/Mint-Y/apps/16/grub-customizer.png>
     [exec] (Herramienta de copia de seguridad) {mintbackup} </usr/share/icons/Mint-Y/apps/16/mintbackup.png>
     [exec] (Informes del sistema) {mintreport} </usr/share/icons/Mint-Y/apps/16/mintreport.png>

@@ -21,8 +21,8 @@ Con lo siguiente nos aseguraremos de habilitar lo más basico además de dejar c
 
 **Dependencias**
 
-    sudo apt install git fluxbox lxappearance \
-    lxrandr pnmixer numlockx gnome-console \
+    sudo apt install git fluxbox lxappearance xsettingsd \
+    lxrandr lxtask pnmixer numlockx gnome-console \
     xfce4-appfinder qt5ct nitrogen \
     gxkb gnome-icon-theme pavucontrol
 
