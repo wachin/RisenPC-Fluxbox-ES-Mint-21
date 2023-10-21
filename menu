@@ -1,7 +1,7 @@
 [begin] (fluxbox)
 [include] (~/.fluxbox/xdg_menu)
  [submenu] (Herramientas del Sistema) </usr/share/icons/gnome/16x16/categories/preferences-system.png>
-   [exec] (MX Herramientas) {mx-tools} </usr/share/icons/hicolor/96x96/apps/mx-tools.png>
+   [exec] (Gestor de tareas) {lxtask} </usr/share/icons/Mint-Y/apps/16/utilities-system-monitor.png>
    [exec] (Ajustes del Monitor) {lxrandr} </usr/share/icons/gnome/16x16/devices/video-display.png>
    [exec] (Cambiar Wallpaper con Nitrogen) {nitrogen /usr/share/backgrounds/} </usr/share/icons/gnome/16x16/apps/gnome-settings-background.png>
    [exec] (Resetear Nitrogen en 1er uso, y para usar Dos Monitores) {rm -r ~/.config/nitrogen/} </usr/share/icons/gnome/16x16/apps/gnome-settings-background.png>
