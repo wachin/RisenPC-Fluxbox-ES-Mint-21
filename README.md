@@ -21,7 +21,7 @@ Con lo siguiente nos aseguraremos de habilitar lo más basico además de dejar c
 
 **Dependencias**
 
-    sudo apt install git fluxbox lxappearance xsettingsd \
+    sudo apt install git fluxbox lxappearance \
     lxrandr lxtask pnmixer numlockx gnome-console \
     xfce4-appfinder qt5ct nitrogen \
     gxkb gnome-icon-theme pavucontrol
@@ -34,18 +34,6 @@ Si usará programas de KDE como ejemplo Kdenlive, es recomendable que instale el
 	sudo apt install breeze
 
 Lo pongo aparte porque después no vaya a usar aplciaciones KDE e instalar este paquete y otros le ocuparan bastante espacio en disco
-
-# Instalar las opciones de salida de Fluxbox
-
-Puede descargar manualmente exit-options desde:
-
-https://mxrepo.com/mx/repo/pool/main/e/exit-options/
-
-![](vx_images/20231020-100650-exit-options.png)
-
-e instalarlo con GDebi con clic derecho
-
-
 
 # Actualizar fluxbox (opcional)
 
