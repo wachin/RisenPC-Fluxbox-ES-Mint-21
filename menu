@@ -46,6 +46,10 @@
       [stylesdir] (/usr/share/fluxbox/styles)
       [stylesdir] (~/.fluxbox/styles)
    [end]
- [exec] (Salir) {/usr/bin/exit-options} </usr/share/icons/gnome/16x16/actions/stop.png>
+  [submenu] (Salir)  </usr/share/icons/gnome/16x16/actions/stop.png>
+   [exec] (Reiniciar) {shutdown -r now} </usr/share/icons/gnome/16x16/actions/reload.png>
+   [exec] (Apagar) { shutdown -h now} </usr/share/icons/gnome/16x16/actions/system-shutdown.png>
+   [exec] (Suspender) {systemctl suspend} </usr/share/icons/gnome/16x16/actions/player_pause.png>
+   [exit] (Cerrar Sesión) </usr/share/icons/gnome/16x16/actions/system-log-out.png>
  [end] # (Salir)
 [end]

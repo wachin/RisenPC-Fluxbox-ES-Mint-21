@@ -18,7 +18,7 @@ xmodmap "~/.Xmodmap"
 # still run GTK+ applications and want to configure things such as
 # themes, font antialiasing/hinting, and UI sound effects.
 
-xsettingsd &
+#xsettingsd &
 
 # Colocar el administrador de red en la barra de herramientas
 nm-applet &
