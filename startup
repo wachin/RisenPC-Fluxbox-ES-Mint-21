@@ -103,7 +103,7 @@ setxkbmap -layout es & # Teclado Español europeo
 # Lo siguiente es para aplicaciones opcionales que quiera algún usuario:
 
 # Para hacer capturas de pantalla
-ksnip &
+#ksnip &
 #shutter &
 
 # Navegadores web, elija cual usar:
