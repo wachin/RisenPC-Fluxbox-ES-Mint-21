@@ -107,17 +107,6 @@ Esta es la segunda manera de instalar RisenPC Fluxbox si usted es un desarrollad
 
 
 
-# Configurar qt5ct utilidad de configuración de Qt5
-Esto es necesario para las aplicaciones que han sido escritas en Qt (KDE) como por ejemplo Dolphin, Kate, etc para poder elegir los iconos y temas de ellas
-
-Ponga en una terminal:
-
-```
- echo "export QT_QPA_PLATFORMTHEME="qt5ct"" >> ~/.profile
-```
-
-Con esto hemos añadido esa última línea al archivo oculto .profile
-
 
 # Instalar Menú de aplicaciones con iconos, con xdgmenumaker
 El siguiente programa necesario se llama xdgmenumaker, que me gustaría que lo pongan dentro de alguna carpeta aparte, yo estoy usando:
@@ -199,7 +188,7 @@ En ese archivo xdg_menu se escribirán todas las aplicaciones que están instala
 
 Para ver el menú de clic derecho en el escritorio o clic derecho en una de las dos esquinas o Super + M quedará así:
 
-![](https://raw.githubusercontent.com/wachin/RisenPC-Fluxbox-ES/main/RisenPC-Fluxbox.png)
+![](vx_images/20231026-180143-menu-de-aplicaciones-de-xdgmenumaker.png)
 
 
 ## Actualizar el menú de Fluxbox cada vez que instale alguna aplicación
@@ -711,7 +700,7 @@ También si desea la puede mover más arriba
 
 **Nota:** Se debería poder añadir otras terminales algo así mismo.
 
-# Temas de iconos recomendados para usar Thunar 
+# Temas de iconos recomendados para usar Nemo 
 Por defecto será usado el tema de iconos de Gnome que instalamos arriba y se verá el icono en la barra de herramientas, pero si usted desea usar otro como lo es Breeze, ya no se verá el icono de Thunar en la barra de herramientas
 
 Si usted quiere usar otro tema de iconos uno de los que recomiendo es:
@@ -720,7 +709,7 @@ Papirus
 
 para usarlo 
 
-**Menú --> Herramientas --> Personalizar apariencia y comportamiento**
+**Menú --> Herramientas del Sistema --> Personalizar apariencia y comportamiento**
 
 **Nota:** El menú principal de Fluxbox se lo puede abrir desde escritorio con clic derecho, o en las esquinas abajo izquierda o derecha abajo, o con el atajo de teclado Super + M
 
@@ -728,20 +717,17 @@ para usarlo
 
 allí en la pestaña:
 
-Tema de iconos
+**Tema de iconos**
 
-![](vx_images/511683991826512.png)
+![](vx_images/20231026-174619-usa-los-temas-de-iconos-de-Mint.png)
 
 También pueden usar las variantes:
 
-Papirus-Dark  
-Papirus-Light  
+Mint-X-Aqua
 
-además el tema:
+Mint-X-Blue
 
-Numix también debería de funcionar bien. Pueden probar otros si desean
-
-este tema de iconos es además compatible con las aplicaciones KDE si lo usaran también al ponerlo en "Qt5Ct"
+etc
 
 
 
@@ -755,11 +741,7 @@ En es escritorio clic derecho en el menú, o en las esquinas o Super + M y clic 
 
 se abrirá el editor de texto que ustedes usen
 
-# Gracias a Note
-Este tutorial ha sido hecho gracias al editor de Markdown Multiplataforma VNote:
 
-**Vnote for MX Linux 21 (y Linux basados en Debian 11 Bullseye) ~ Proyecto Facilitar el Software Libre en el Ecuador**
-[https://facilitarelsoftwarelibre.blogspot.com/2022/07/vnote-for-mx-linux-deb-package.html](https://facilitarelsoftwarelibre.blogspot.com/2022/07/vnote-for-mx-linux-deb-package.html)
 
 # Configurar la velocidad del cursor en dispositivos 
 xinput-gui es una interfaz grafica para xinput que le permitirá editar propiedades de dispositivos como:

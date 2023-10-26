@@ -1,87 +1,100 @@
-[submenu] (Aplicaciones) </usr/share/icons/Mint-Y/categories/16/applications-other.png>
-  [submenu] (Accesorios) </usr/share/icons/Mint-Y/categories/16/applications-accessories.png>
-    [exec] (Archivos) {nemo } </usr/share/icons/Mint-Y/places/16/system-file-manager.png>
+[submenu] (Aplicaciones) </usr/share/icons/Mint-X/categories/16/applications-other.png>
+  [submenu] (Accesorios) </usr/share/icons/Mint-X/categories/16/applications-accessories.png>
+    [exec] (Archivos) {nemo } </usr/share/icons/gnome/16x16/apps/system-file-manager.png>
     [exec] (Artha) {artha} </usr/share/pixmaps/artha.png>
-    [exec] (Buscador de aplicaciones) {xfce4-appfinder} </usr/share/icons/Mint-Y/apps/16/org.xfce.appfinder.png>
-    [exec] (Calculadora) {gnome-calculator} </usr/share/icons/Mint-Y/apps/16/org.gnome.Calculator.png>
-    [exec] (Captura de pantalla) {gnome-screenshot --interactive} </usr/share/icons/Mint-Y/apps/16/org.gnome.Screenshot.png>
-    [exec] (Contraseñas y claves) {seahorse} </usr/share/icons/Mint-Y/apps/16/org.gnome.seahorse.Application.png>
-    [exec] (Discos) {gnome-disks} </usr/share/icons/Mint-Y/apps/16/org.gnome.DiskUtility.png>
-    [exec] (Double Commander) {doublecmd } </usr/share/icons/Mint-Y/apps/16/doublecmd.png>
-    [exec] (Editor de texto) {xed } </usr/share/icons/Mint-Y/apps/16/accessories-text-editor.png>
+    [exec] (Buscador de aplicaciones) {xfce4-appfinder} </usr/share/icons/Mint-X/apps/16/org.xfce.appfinder.png>
+    [exec] (Calculadora) {gnome-calculator} </usr/share/icons/Mint-X/apps/16/org.gnome.Calculator.png>
+    [exec] (Captura de pantalla) {gnome-screenshot --interactive} </usr/share/icons/Mint-X/apps/16/org.gnome.Screenshot.png>
+    [exec] (Contraseñas y claves) {seahorse} </usr/share/icons/Mint-X/apps/16/org.gnome.seahorse.Application.png>
+    [exec] (Discos) {gnome-disks} </usr/share/icons/Mint-X/apps/16/org.gnome.DiskUtility.png>
+    [exec] (Double Commander) {doublecmd } </usr/share/icons/Mint-X/apps/16/doublecmd.png>
+    [exec] (Editor de texto) {xed } </usr/share/icons/Mint-X/apps/16/accessories-text-editor.png>
     [exec] (Editor de textos) {gedit }
-    [exec] (Formateador de memorias USB) {mintstick -m format} </usr/share/icons/Mint-Y/apps/16/mintstick.png>
-    [exec] (Gestor de archivadores) {file-roller } </usr/share/icons/Mint-Y/apps/16/org.gnome.ArchiveManager.png>
-    [exec] (Grabador de imágenes USB) {mintstick -m iso} </usr/share/icons/Mint-Y/apps/16/mintstick.png>
+    [exec] (Formateador de memorias USB) {mintstick -m format} </usr/share/icons/hicolor/16x16/apps/mintstick.png>
+    [exec] (Gestor de archivadores) {file-roller } </usr/share/icons/Mint-X/apps/16/org.gnome.ArchiveManager.png>
+    [exec] (Grabador de imágenes USB) {mintstick -m iso} </usr/share/icons/hicolor/16x16/apps/mintstick.png>
     [exec] (Gxkb) {gxkb} </usr/share/pixmaps/gxkb.xpm>
-    [exec] (Mapa de caracteres) {gucharmap} </usr/share/icons/Mint-Y/apps/16/accessories-character-map.png>
-    [exec] (Notas) {sticky} </usr/share/icons/Mint-Y/apps/16/sticky.png>
-    [exec] (Onboard) {onboard} </usr/share/icons/Mint-Y/apps/16/onboard.png>
+    [exec] (Mapa de caracteres) {gucharmap} </usr/share/icons/Mint-X/apps/16/accessories-character-map.png>
+    [exec] (Notas) {sticky} </usr/share/icons/Mint-X/apps/16/sticky.png>
+    [exec] (Onboard) {onboard} </usr/share/icons/Mint-X/apps/16/onboard.png>
     [exec] (PeaZip) {peazip } </usr/share/pixmaps/peazip.png>
-    [exec] (PlayOnLinux) {playonlinux } </usr/share/icons/Mint-Y/apps/16/playonlinux.png>
-    [exec] (Pluma) {pluma } </usr/share/icons/Mint-Y/apps/16/accessories-text-editor.png>
+    [exec] (PlayOnLinux) {playonlinux } </usr/share/icons/Mint-X/apps/16/playonlinux.png>
+    [exec] (Pluma) {pluma } </usr/share/icons/Mint-X/apps/16/accessories-text-editor.png>
     [exec] (QStarDict) {qstardict}
-    [exec] (Redshift) {redshift-gtk} </usr/share/icons/Mint-Y/apps/16/redshift.png>
+    [exec] (Redshift) {redshift-gtk} </usr/share/icons/Mint-X/apps/16/redshift.png>
     [exec] (Renombrador de archivos) {bulky}
-    [exec] (Shutter) {shutter } </usr/share/icons/Mint-Y/apps/16/shutter.png>
-    [exec] (Tipografías) {gnome-font-viewer } </usr/share/icons/Mint-Y/apps/16/preferences-desktop-font.png>
-    [exec] (Vim) {/usr/bin/x-terminal-emulator -e vim } </usr/share/icons/Mint-Y/apps/16/gvim.png>
-    [exec] (Visor de documentos) {xreader } </usr/share/icons/Mint-Y/apps/16/xreader.png>
-    [exec] (Visor de imágenes) {xviewer } </usr/share/icons/Mint-Y/apps/16/xviewer.png>
+    [exec] (Shutter) {shutter } </usr/share/icons/Mint-X/apps/16/shutter.png>
+    [exec] (Tipografías) {gnome-font-viewer } </usr/share/icons/Mint-X/apps/16/preferences-desktop-font.png>
+    [exec] (Vim) {/usr/bin/x-terminal-emulator -e vim } </usr/share/icons/Mint-X/apps/16/gvim.png>
+    [exec] (Visor de documentos) {xreader } </usr/share/icons/hicolor/16x16/apps/xreader.png>
+    [exec] (Visor de imágenes) {xviewer } </usr/share/icons/hicolor/16x16/apps/xviewer.png>
     [exec] (Warpinator) {warpinator} </usr/share/icons/hicolor/16x16/apps/org.x.Warpinator.png>
-    [exec] (Xarchiver) {xarchiver } </usr/share/icons/Mint-Y/apps/16/xarchiver.png>
+    [exec] (Xarchiver) {xarchiver } </usr/share/icons/Mint-X/apps/16/xarchiver.png>
     [exec] (ksnip) {ksnip}
     [exec] (nitrogen) {nitrogen} </usr/share/icons/hicolor/16x16/apps/nitrogen.png>
     [exec] (picom) {picom}
   [end] # (Accesorios)
-  [submenu] (Configuración) </usr/share/icons/Mint-Y/categories/16/preferences-desktop.png>
-    [exec] (Ajustes QT5) {qt5ct} </usr/share/icons/Mint-Y/apps/16/preferences-desktop-theme.png>
-    [exec] (Ajustes del monitor) {lxrandr} </usr/share/icons/Mint-Y/devices/16/video-display.png>
-    [exec] (Configuración de red avanzada) {nm-connection-editor} </usr/share/icons/Mint-Y/apps/16/preferences-system-network.png>
-    [exec] (Configuración del cortafuegos) {gufw} </usr/share/icons/Mint-Y/apps/16/gufw.png>
+  [submenu] (Configuración) </usr/share/icons/Mint-X/categories/16/preferences-desktop.png>
+    [exec] (Ajustes QT5) {qt5ct} </usr/share/icons/Mint-X/apps/16/preferences-desktop-theme.png>
+    [exec] (Ajustes de KDE Connect) {kdeconnect-settings}
+    [exec] (Ajustes del monitor) {lxrandr} </usr/share/icons/gnome/16x16/devices/video-display.png>
+    [exec] (Configuración de red avanzada) {nm-connection-editor} </usr/share/icons/Mint-X/apps/16/preferences-system-network.png>
+    [exec] (Configuración del cortafuegos) {gufw} </usr/share/icons/Mint-X/apps/16/gufw.png>
     [exec] (Efectos de ventana) {compton-conf} </usr/share/icons/hicolor/48x48/apps/compton.png>
-    [exec] (Gestor de conexiones Bluetooth) {blueman-manager} </usr/share/icons/Mint-Y/apps/16/blueman.png>
-    [exec] (Idiomas) {mintlocale} </usr/share/icons/Mint-Y/apps/16/preferences-desktop-locale.png>
-    [exec] (Impresoras) {system-config-printer} </usr/share/icons/Mint-Y/devices/16/printer.png>
-    [exec] (Método de entrada) {mintlocale-im} </usr/share/icons/Mint-Y/apps/16/mintlocale-im.png>
-    [exec] (Pantalla de bienvenida) {mintwelcome} </usr/share/icons/Mint-Y/apps/16/mintwelcome.png>
-    [exec] (Personalizar apariencia y comportamiento) {lxappearance} </usr/share/icons/Mint-Y/apps/16/preferences-desktop-theme.png>
-    [exec] (Preferencias de IBus) {ibus-setup} </usr/share/icons/Mint-Y/apps/16/ibus-setup.png>
-    [exec] (Preferencias del escritorio) {pcmanfm --desktop-pref} </usr/share/icons/Mint-Y/places/16/user-desktop.png>
-    [exec] (Ventana de inicio de sesión) {pkexec lightdm-settings} </usr/share/icons/Mint-Y/apps/16/lightdm-settings.png>
+    [exec] (Gestor de conexiones Bluetooth) {blueman-manager} </usr/share/icons/Mint-X/apps/16/blueman.png>
+    [exec] (Idiomas) {mintlocale} </usr/share/icons/Mint-X/apps/16/preferences-desktop-locale.png>
+    [exec] (Impresoras) {system-config-printer} </usr/share/icons/Mint-X/devices/22/printer.png>
+    [exec] (Método de entrada) {mintlocale-im} </usr/share/icons/hicolor/16x16/apps/mintlocale-im.png>
+    [exec] (Pantalla de bienvenida) {mintwelcome}
+    [exec] (Personalizar apariencia y comportamiento) {lxappearance} </usr/share/icons/Mint-X/apps/16/preferences-desktop-theme.png>
+    [exec] (Preferencias de IBus) {ibus-setup} </usr/share/icons/Mint-X/apps/16/ibus-setup.png>
+    [exec] (Preferencias del escritorio) {pcmanfm --desktop-pref} </usr/share/icons/gnome/16x16/places/user-desktop.png>
+    [exec] (Ventana de inicio de sesión) {pkexec lightdm-settings} </usr/share/icons/hicolor/16x16/apps/lightdm-settings.png>
   [end] # (Configuración)
-  [submenu] (Desarrollo) </usr/share/icons/Mint-Y/categories/16/applications-development.png>
-    [exec] (Geany) {geany } </usr/share/icons/Mint-Y/apps/16/geany.png>
-    [exec] (Meld) {meld } </usr/share/icons/Mint-Y/apps/16/org.gnome.meld.png>
-    [exec] (Sublime Text) {/opt/sublime_text/sublime_text } </usr/share/icons/Mint-Y/apps/16/sublime-text.png>
+  [submenu] (Desarrollo) </usr/share/icons/Mint-X/categories/16/applications-development.png>
+    [exec] (Geany) {geany } </usr/share/icons/Mint-X/apps/16/geany.png>
+    [exec] (Meld) {meld } </usr/share/icons/hicolor/16x16/apps/org.gnome.meld.png>
+    [exec] (Sublime Text) {/opt/sublime_text/sublime_text } </usr/share/icons/Mint-X/apps/16/sublime-text.png>
   [end] # (Desarrollo)
-  [submenu] (Gráficos) </usr/share/icons/Mint-Y/categories/16/applications-graphics.png>
-    [exec] (Dibujo) {drawing } </usr/share/icons/Mint-Y/apps/16/com.github.maoschanz.drawing.png>
-    [exec] (Escáner de documentos) {simple-scan} </usr/share/icons/Mint-Y/apps/16/org.gnome.SimpleScan.png>
-    [exec] (Inkscape) {inkscape } </usr/share/icons/Mint-Y/apps/16/org.inkscape.Inkscape.png>
-    [exec] (Pix) {pix } </usr/share/icons/Mint-Y/apps/16/pix.png>
-    [exec] (Programa de manipulación de imágenes de GNU) {gimp-2.10 } </usr/share/icons/Mint-Y/apps/16/gimp.png>
+  [submenu] (Gráficos) </usr/share/icons/Mint-X/categories/16/applications-graphics.png>
+    [exec] (Dibujo) {drawing } </usr/share/icons/Mint-X/apps/16/com.github.maoschanz.drawing.png>
+    [exec] (Escáner de documentos) {simple-scan} </usr/share/icons/Mint-X/apps/16/org.gnome.SimpleScan.png>
+    [exec] (Inkscape) {inkscape } </usr/share/icons/hicolor/16x16/apps/org.inkscape.Inkscape.png>
+    [exec] (Pix) {pix } </usr/share/icons/hicolor/16x16/apps/pix.png>
+    [exec] (Programa de manipulación de imágenes de GNU) {gimp-2.10 } </usr/share/icons/Mint-X/apps/16/gimp.png>
+    [exec] (Shotwell) {shotwell } </usr/share/icons/Mint-X/apps/16/shotwell.png>
+    [exec] (XnView Multi Platform) {xnview } </opt/XnView/xnview.png>
+    [exec] (gThumb) {gthumb } </usr/share/icons/hicolor/16x16/apps/org.gnome.gThumb.png>
+    [exec] (gscan2pdf) {gscan2pdf }
   [end] # (Gráficos)
-  [submenu] (Multimedia) </usr/share/icons/Mint-Y/categories/16/applications-multimedia.png>
-    [exec] (Audacity) {env UBUNTU_MENUPROXY=0 GDK_BACKEND=x11 audacity } </usr/share/icons/Mint-Y/apps/16/audacity.png>
-    [exec] (Celluloid) {celluloid } </usr/share/icons/Mint-Y/apps/16/io.github.celluloid_player.Celluloid.png>
-    [exec] (Control de volumen de PulseAudio) {pavucontrol} </usr/share/icons/Mint-Y/apps/16/multimedia-volume-control.png>
-    [exec] (Hypnotix) {hypnotix} </usr/share/icons/Mint-Y/apps/16/hypnotix.png>
+  [submenu] (Multimedia) </usr/share/icons/Mint-X/categories/16/applications-multimedia.png>
+    [exec] (Audacious) {audacious } </usr/share/icons/Mint-X/apps/16/audacious.png>
+    [exec] (Audacity) {env UBUNTU_MENUPROXY=0 GDK_BACKEND=x11 audacity } </usr/share/icons/Mint-X/apps/16/audacity.png>
+    [exec] (Celluloid) {celluloid }
+    [exec] (Control de volumen de PulseAudio) {pavucontrol} </usr/share/icons/Mint-X/apps/16/multimedia-volume-control.png>
+    [exec] (Hypnotix) {hypnotix} </usr/share/icons/Mint-X/apps/16/hypnotix.png>
+    [exec] (Kdenlive) {kdenlive } </usr/share/icons/hicolor/16x16/apps/kdenlive.png>
+    [exec] (MediaInfo) {mediainfo-gui } </usr/share/icons/hicolor/256x256/apps/mediainfo.png>
     [exec] (PNMixer) {pnmixer} </usr/share/icons/hicolor/128x128/apps/pnmixer.png>
-    [exec] (Rhythmbox) {rhythmbox } </usr/share/icons/Mint-Y/apps/16/org.gnome.Rhythmbox.png>
+    [exec] (PulseAudio Volume Meter (Capture\)) {pavumeter --record} </usr/share/icons/gnome/16x16/devices/audio-input-microphone.png>
+    [exec] (PulseAudio Volume Meter (Playback\)) {pavumeter} </usr/share/icons/gnome/16x16/devices/audio-input-microphone.png>
+    [exec] (Reproductor multimedia VLC) {/usr/bin/vlc --started-from-file } </usr/share/icons/Mint-X/apps/16/vlc.png>
+    [exec] (Rhythmbox) {rhythmbox } </usr/share/icons/Mint-X/apps/16/org.gnome.Rhythmbox.png>
+    [exec] (Spotify) {spotify } </usr/share/icons/Mint-X/apps/16/spotify-client.png>
   [end] # (Multimedia)
-  [submenu] (Oficina) </usr/share/icons/Mint-Y/categories/16/applications-office.png>
-    [exec] (Biblioteca) {thingy} </usr/share/icons/Mint-Y/apps/16/thingy.png>
-    [exec] (Calendario) {gnome-calendar } </usr/share/icons/Mint-Y/apps/16/org.gnome.Calendar.png>
+  [submenu] (Oficina) </usr/share/icons/Mint-X/categories/16/applications-office.png>
+    [exec] (Biblioteca) {thingy}
+    [exec] (Calendario) {gnome-calendar } </usr/share/icons/Mint-X/apps/16/org.gnome.Calendar.png>
     [exec] (GTK Aiksaurus) {gaiksaurus}
-    [exec] (GoldenDict) {goldendict} </usr/share/icons/Mint-Y/apps/16/goldendict.png>
-    [exec] (LibreOffice) {libreoffice } </usr/share/icons/Mint-Y/apps/16/libreoffice-startcenter.png>
-    [exec] (LibreOffice Base) {libreoffice --base } </usr/share/icons/Mint-Y/apps/16/libreoffice-base.png>
-    [exec] (LibreOffice Calc) {libreoffice --calc } </usr/share/icons/Mint-Y/apps/16/libreoffice-calc.png>
-    [exec] (LibreOffice Draw) {libreoffice --draw } </usr/share/icons/Mint-Y/apps/16/libreoffice-draw.png>
-    [exec] (LibreOffice Impress) {libreoffice --impress } </usr/share/icons/Mint-Y/apps/16/libreoffice-impress.png>
-    [exec] (LibreOffice Math) {libreoffice --math } </usr/share/icons/Mint-Y/apps/16/libreoffice-math.png>
-    [exec] (LibreOffice Writer) {libreoffice --writer } </usr/share/icons/Mint-Y/apps/16/libreoffice-writer.png>
+    [exec] (GoldenDict) {goldendict} </usr/share/icons/Mint-X/apps/16/goldendict.png>
+    [exec] (LibreOffice) {libreoffice } </usr/share/icons/Mint-X/apps/16/libreoffice-startcenter.png>
+    [exec] (LibreOffice Base) {libreoffice --base } </usr/share/icons/Mint-X/apps/16/libreoffice-base.png>
+    [exec] (LibreOffice Calc) {libreoffice --calc } </usr/share/icons/Mint-X/apps/16/libreoffice-calc.png>
+    [exec] (LibreOffice Draw) {libreoffice --draw } </usr/share/icons/Mint-X/apps/16/libreoffice-draw.png>
+    [exec] (LibreOffice Impress) {libreoffice --impress } </usr/share/icons/Mint-X/apps/16/libreoffice-impress.png>
+    [exec] (LibreOffice Math) {libreoffice --math } </usr/share/icons/Mint-X/apps/16/libreoffice-math.png>
+    [exec] (LibreOffice Writer) {libreoffice --writer } </usr/share/icons/Mint-X/apps/16/libreoffice-writer.png>
+    [exec] (PDFsam Basic) {pdfsam }
     [exec] (WPS 2019) {/usr/bin/wps } </usr/share/icons/hicolor/16x16/mimetypes/wps-office2019-kprometheus.png>
     [exec] (WPS PDF) {/usr/bin/wpspdf } </usr/share/icons/hicolor/16x16/mimetypes/wps-office2019-pdfmain.png>
     [exec] (WPS Presentation) {/usr/bin/wpp } </usr/share/icons/hicolor/16x16/mimetypes/wps-office2019-wppmain.png>
@@ -89,41 +102,53 @@
     [exec] (WPS Writer) {/usr/bin/wps } </usr/share/icons/hicolor/16x16/mimetypes/wps-office2019-wpsmain.png>
     [exec] (ghostwriter) {ghostwriter } </usr/share/icons/hicolor/16x16/apps/ghostwriter.png>
   [end] # (Oficina)
-  [submenu] (Otras) </usr/share/icons/Mint-Y/categories/16/applications-other.png>
+  [submenu] (Otras) </usr/share/icons/Mint-X/categories/16/applications-other.png>
+    [exec] (Bloc de Notas) {notepad} </usr/share/icons/Mint-X/apps/16/wine-notepad.png>
+    [exec] (Configurar Wine) {winecfg} </usr/share/icons/Mint-X/apps/16/wine-winecfg.png>
+    [exec] (Desinstala software de Wine) {wine uninstaller} </usr/share/icons/Mint-X/apps/16/wine-uninstaller.png>
     [exec] (Documentos) {/opt/google/chrome/google-chrome --profile-directory=Default --app-id=mpnpojknpmmopombnjdcgaaiekajbnjb} </home/paco/.local/share/icons/hicolor/32x32/apps/chrome-mpnpojknpmmopombnjdcgaaiekajbnjb-Default.png>
+    [exec] (Explorar la unidad C:) {xdg-open .wine/dosdevices/c:} </usr/share/icons/hicolor/16x16/places/folder-wine.png>
     [exec] (Gmail) {/opt/google/chrome/google-chrome --profile-directory=Default --app-id=fmgjjmmmlfnkbppncabfkddbjimcfncm} </home/paco/.local/share/icons/hicolor/32x32/apps/chrome-fmgjjmmmlfnkbppncabfkddbjimcfncm-Default.png>
-    [exec] (Google Drive) {/opt/google/chrome/google-chrome --profile-directory=Default --app-id=aghbiahbpaijignceidepookljebhfak} </home/paco/.local/share/icons/hicolor/32x32/apps/chrome-aghbiahbpaijignceidepookljebhfak-Default.png>
     [exec] (Google Password Manager) {/opt/google/chrome/google-chrome --profile-directory=Default --app-id=kajebgjangihfbkjfejcanhanjmmbcfd} </home/paco/.local/share/icons/hicolor/32x32/apps/chrome-kajebgjangihfbkjfejcanhanjmmbcfd-Default.png>
     [exec] (Hojas de cálculo) {/opt/google/chrome/google-chrome --profile-directory=Default --app-id=fhihpiojkbmbpdjeoajapmgkhlnakfjf} </home/paco/.local/share/icons/hicolor/32x32/apps/chrome-fhihpiojkbmbpdjeoajapmgkhlnakfjf-Default.png>
+    [exec] (Mp3tag) {cd /home/paco/.wine/dosdevices/c:/Program Files/Mp3tag ; env WINEPREFIX="/home/paco/.wine" wine-stable C:\\\\windows\\\\command\\\\start.exe /Unix /home/paco/.wine/dosdevices/c:/ProgramData/Microsoft/Windows/Start\\ Menu/Programs/Mp3tag/Mp3tag.lnk} </home/paco/.local/share/icons/hicolor/16x16/apps/46FF_Mp3tag.0.png>
     [exec] (Presentaciones) {/opt/google/chrome/google-chrome --profile-directory=Default --app-id=kefjledonklijopmnomlcbpllchaibag} </home/paco/.local/share/icons/hicolor/32x32/apps/chrome-kefjledonklijopmnomlcbpllchaibag-Default.png>
     [exec] (YouTube) {/opt/google/chrome/google-chrome --profile-directory=Default --app-id=agimnkijcaahngcdmfeangaknmldooml} </home/paco/.local/share/icons/hicolor/32x32/apps/chrome-agimnkijcaahngcdmfeangaknmldooml-Default.png>
+    [exec] (foobar2000) {cd /home/paco/.wine/dosdevices/c:/Program Files/foobar2000 ; env WINEPREFIX="/home/paco/.wine" wine-stable C:\\\\windows\\\\command\\\\start.exe /Unix /home/paco/.wine/dosdevices/c:/ProgramData/Microsoft/Windows/Start\\ Menu/Programs/foobar2000.lnk} </home/paco/.local/share/icons/hicolor/16x16/apps/B093_foobar2000.0.png>
   [end] # (Otras)
-  [submenu] (Red) </usr/share/icons/Mint-Y/categories/16/applications-internet.png>
+  [submenu] (Red) </usr/share/icons/Mint-X/categories/16/applications-internet.png>
+    [exec] (Abrir en dispositivo conectado a través de KDE Connect) {kdeconnect-handler --open }
     [exec] (Aplicaciones web) {webapp-manager}
-    [exec] (Cliente de correo Thunderbird) {thunderbird } </usr/share/icons/Mint-Y/apps/16/thunderbird.png>
-    [exec] (Google Chrome) {/usr/bin/google-chrome-stable } </usr/share/icons/Mint-Y/apps/16/google-chrome.png>
-    [exec] (HexChat) {hexchat --existing } </usr/share/icons/Mint-Y/apps/16/hexchat.png>
+    [exec] (Cliente de correo Thunderbird) {thunderbird } </usr/share/icons/Mint-X/apps/16/thunderbird.png>
+    [exec] (Google Chrome) {/usr/bin/google-chrome-stable } </usr/share/icons/Mint-X/apps/16/google-chrome.png>
+    [exec] (HexChat) {hexchat --existing } </usr/share/icons/hicolor/48x48/apps/hexchat.png>
+    [exec] (Indicador de KDE Connect) {kdeconnect-indicator}
+    [exec] (JDownloader 2) {"/home/paco/AppsLinux/jd2/JDownloader2" } </home/paco/AppsLinux/jd2/.install4j/JDownloader2.png>
+    [exec] (KDE Connect) {kdeconnect-app}
     [exec] (Microsoft Edge) {/usr/bin/microsoft-edge-stable } </usr/share/icons/hicolor/16x16/apps/microsoft-edge.png>
-    [exec] (Navegador web Firefox) {firefox } </usr/share/icons/Mint-Y/apps/16/firefox.png>
-    [exec] (Telegram Desktop) {/home/paco/AppsLinux/Telegram/Telegram -- } </home/paco/.local/share/icons/telegram.png>
-    [exec] (Transmission) {transmission-gtk } </usr/share/icons/Mint-Y/apps/16/transmission.png>
+    [exec] (Navegador web Firefox) {firefox } </usr/share/icons/Mint-X/apps/16/firefox.png>
+    [exec] (SMS de KDE Connect) {kdeconnect-sms}
+    [exec] (Telegram Desktop) {/home/paco/AppsLinux/Telegram/Telegram -- } </usr/share/icons/Mint-X/apps/16/telegram.png>
+    [exec] (Transmission) {transmission-gtk } </usr/share/icons/Mint-X/apps/16/transmission.png>
     [exec] (Zoom) {/usr/bin/zoom } </usr/share/pixmaps/Zoom.png>
   [end] # (Red)
-  [submenu] (Sistema) </usr/share/icons/Mint-Y/categories/16/applications-system.png>
-    [exec] (Analizador de uso de disco) {baobab } </usr/share/icons/Mint-Y/apps/16/org.gnome.baobab.png>
+  [submenu] (Sistema) </usr/share/icons/Mint-X/categories/16/applications-system.png>
+    [exec] (Analizador de uso de disco) {baobab } </usr/share/icons/Mint-X/apps/16/org.gnome.baobab.png>
     [exec] (Consola) {kgx}
-    [exec] (Fuentes de software) {pkexec mintsources} </usr/share/icons/Mint-Y/apps/16/mintsources.png>
-    [exec] (Gestor de actualizaciones) {mintupdate} </usr/share/icons/Mint-Y/apps/16/mintupdate.png>
-    [exec] (Gestor de archivos PCManFM) {pcmanfm } </usr/share/icons/Mint-Y/places/16/system-file-manager.png>
-    [exec] (Gestor de controladores) {pkexec driver-manager} </usr/share/icons/Mint-Y/apps/16/mintdrivers.png>
-    [exec] (Gestor de paquetes Synaptic) {synaptic-pkexec} </usr/share/icons/Mint-Y/apps/16/synaptic.png>
-    [exec] (Gestor de software) {mintinstall} </usr/share/icons/Mint-Y/apps/16/mintinstall.png>
-    [exec] (Gestor de tareas) {lxtask} </usr/share/icons/Mint-Y/apps/16/utilities-system-monitor.png>
-    [exec] (Grub Customizer) {grub-customizer} </usr/share/icons/Mint-Y/apps/16/grub-customizer.png>
-    [exec] (Herramienta de copia de seguridad) {mintbackup} </usr/share/icons/Mint-Y/apps/16/mintbackup.png>
-    [exec] (Informes del sistema) {mintreport} </usr/share/icons/Mint-Y/apps/16/mintreport.png>
-    [exec] (Monitor del sistema) {gnome-system-monitor} </usr/share/icons/Mint-Y/apps/16/org.gnome.SystemMonitor.png>
-    [exec] (Registros) {gnome-logs} </usr/share/icons/Mint-Y/apps/16/org.gnome.Logs.png>
-    [exec] (Timeshift) {timeshift-launcher} </usr/share/icons/Mint-Y/apps/16/timeshift.png>
+    [exec] (Fuentes de software) {pkexec mintsources}
+    [exec] (Gestor de actualizaciones) {mintupdate} </usr/share/icons/hicolor/16x16/apps/mintupdate.png>
+    [exec] (Gestor de archivos PCManFM) {pcmanfm } </usr/share/icons/gnome/16x16/apps/system-file-manager.png>
+    [exec] (Gestor de controladores) {pkexec driver-manager}
+    [exec] (Gestor de paquetes Synaptic) {synaptic-pkexec} </usr/share/icons/Mint-X/apps/16/synaptic.png>
+    [exec] (Gestor de software) {mintinstall}
+    [exec] (Gestor de tareas) {lxtask} </usr/share/icons/Mint-X/apps/16/utilities-system-monitor.png>
+    [exec] (Grub Customizer) {grub-customizer}
+    [exec] (Herramienta de copia de seguridad) {mintbackup}
+    [exec] (Hora y fecha) {time-admin} </usr/share/icons/Mint-X/apps/16/time-admin.png>
+    [exec] (Informes del sistema) {mintreport}
+    [exec] (Monitor del sistema) {gnome-system-monitor}
+    [exec] (Registros) {gnome-logs} </usr/share/icons/Mint-X/apps/16/org.gnome.Logs.png>
+    [exec] (Timeshift) {timeshift-launcher} </usr/share/icons/Mint-X/apps/16/timeshift.png>
+    [exec] (Usuarios y grupos) {users-admin} </usr/share/icons/Mint-X/apps/16/config-users.png>
   [end] # (Sistema)
 [end] # (Aplicaciones)
