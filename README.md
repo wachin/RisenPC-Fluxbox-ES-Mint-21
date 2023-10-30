@@ -24,7 +24,7 @@ Con lo siguiente nos aseguraremos de habilitar lo más basico además de dejar c
     sudo apt install git fluxbox lxappearance \
     lxrandr lxtask pnmixer numlockx gnome-console \
     xfce4-appfinder qt5ct nitrogen \
-    gxkb gnome-icon-theme pavucontrol
+    gxkb pavucontrol
 
 dele Enter y poner "s" de que si acepta  
 
@@ -77,9 +77,9 @@ Abra una terminal y:
 copie todo de una sola vez (Terminales como XFCE4-Terminal o Konsole admiten pegar todo de una sola vez) (también si no le funciona copie uno por uno):    
 
 ```
-    git clone https://github.com/wachin/RisenPC-Fluxbox-ES
-    mv RisenPC-Fluxbox-ES ~/.fluxbox
-    cd ~/.fluxbox/wachin
+    git clone https://github.com/wachin/RisenPC-Fluxbox-ES-Mint-21
+    mv RisenPC-Fluxbox-ES-Mint-21 ~/.fluxbox
+    cd ~/.fluxbox/wachin/
     mkdir -p ~/.config/pnmixer/
     cp config ~/.config/pnmixer/
     cp open_in_gnome_console.nemo_action ~/.local/share/nemo/actions/
